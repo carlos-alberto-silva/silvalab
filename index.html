@@ -14,14 +14,137 @@ figcaption {
   padding: 2px;
   text-align: center;
 }
+
+#menu {
+     margin-right:0;
+     float : right;
+     margin: 0;
+     width: 820;
+     background-color: #f37020 /*#565656*/;
+     font-size: 20px;
+     font-family: Tahoma, Geneva, sans-serif;
+     font-weight: bold;
+     text-align: right;
+     padding: 10px;
+     border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -o-border-radius: 8px;
+}
+
+#menu ul {
+     margin: 0;
+     padding: 8px 0;
+     list-style: none;
+     height: auto;
+}
+
+#menu li {
+     display: inline;
+     padding: 20px;
+}
+
+#menu a {
+     color: #FFF;
+     padding: 10px;
+     text-decoration: none;
+}
+
+#menu a:hover {
+     background-color: #1B191B;
+     color: #FFF;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -o-border-radius: 20px;
+}
+
+#menu li .active {
+     background-color: #1B191B;
+     color: #FFF;
+     border-radius: 20px;
+     -webkit-border-radius: 20px;
+     -moz-border-radius: 20px;
+     -o-border-radius: 20px;
+}
+
+.parent{
+    width: 400px;
+    background: red;
+}
+.child{
+    float: left;
+    width:200px;
+    background:green;
+    height: 100px;
+}
+
+
 </style>
 </head>
 <body>
-
-<figure>
-  <img src="images\top_cover.png" alt="Trulli" style="width:100%">
-  <figcaption>Fig.1 - Trulli, Puglia, Italy</figcaption>
-</figure>
-
+  <div class = "container" style="border-radius: 5px; border: 2px solid transparent; margin-left:0px; margin-top:0px; 
+               background:transparent;float: left; width: 1800px;height: 1050px;">
+     <img src="images\top_cover.png" alt="Trulli" style="width:100%; margin-left:0px;border-radius: 5px; border: 3px solid gray;">
+      
+    <div class="container" style= "width: 1800px; height:1000px;border: 2px solid green">
+      <div class="content1 content" style="margin-left:40px; width: 800px;height: 700px;border: 2px solid red;">
+        <div class="row">
+          <div class="col-sm">
+            <img src="images\CarlosSilva.jpg" alt="" style="border-radius: 50%;margin-top:70px;">
+        </div>
+          <div class="col-sm">
+            <img src="images\sffgs.png" alt=""> 
+            <img src="images\uf.png" alt="">
+          </div>
+        </div>
+        </div>
+        
+      <div class="content2 content" style="margin-left:600px; width: 900px;float:right;height:700px;border: 2px solid blue;margin-top:-710px;">
+        
+         <div id="menu">
+     <ul>
+          <li><a href="#" class="active">Home</a></li>
+          <li><a href="#">Biography</a></li>
+          <li><a href="#">Research</a></li>
+          <li><a href="#">Teaching</a></li>
+          <li><a href="#">Extension</a></li>
+     </ul>
+    </div>
+  
+  
+  <div class="content2 content" style="margin-left:600px; width: 900px;float:right;height:600px;border: 2px solid green;margin-top:10px;">
+    
+         <h1> Dr. Carlos Alberto Silva </h1> 
+            <h3 style="color:gray;">
+              <br> Assistant Professor of Quantitative Forest Science <br/>
+            School of Forest, Fisheriers and Geomatics Science - FFGS<br/>
+            Institute of Food and Agricultural Sciences - IFAS<br/>
+           University of Florida - UF<br/>
+            1745 McCarty Drive / 138 Newins-Ziegler Hall<br/>
+           PO Box 110410 Gainesville, FL 32611-0410<br/>
+            E-mail: c.silva@ufl.edu<br/>
+           Office: +1 (362) XXX XXX<br/>
+            <a href="https://ffgs.ifas.ufl.edu/">https://ffgs.ifas.ufl.edu</a><br/>
+            </h3>
+           </div>  
+            
+        <div class="row" >
+          <div class="col-sm" >
+        </div>
+          <div class="col-sm">
+            <img src="images\sffgs.png" alt=""> 
+            <img src="images\uf.png" alt="">
+          </div>
+        </div>
+        </div>
+ </div>
+ </div>
+       
+ <div class = "container" style="border-radius: 5px; border: 2px solid transparent; margin-left:0px; margin-top:10px; 
+               background:#f37020;float: left; width: 1800px;height: 40px;">  
+               </div>
+               
+               
 </body>
 </html>
