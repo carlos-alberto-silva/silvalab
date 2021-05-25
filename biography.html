@@ -79,26 +79,183 @@ figcaption {
     height: 100px;
 }
 
+table, th, td {
+  border: 1px solid gray;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 {
+  width: 100%;    
+  background-color: #F0F0F0;
+}
+html {
+    zoom: 0.60;
+    -moz-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
 
+.dashed-box {
+  position: relative;
+  z-index: -1;
+  border: dashed;
+  height: 8em;
+  margin-bottom: 1em;
+  margin-top: 2em;
+}
 </style>
 </head>
 <body>
+  <div class = "container" style="border-radius: 5px; border: 2px solid transparent; margin-left:0px; margin-top:0px; 
+               background:transparent;float: left; width: 1800px;height: 1500px;">
+     <img src="images\top_cover.png" alt="Trulli" style="width:100%; margin-left:0px;border-radius: 5px; border: 3px solid gray;">
+      
+    <div class="container" style= "width: 1800px; height:1465px;border: 2px solid transparent">
+            <div class="content1 content" style="margin-left:40px; width: 1100px;height: 700px;border: 2px solid transparent;">
+              
+        <div class="row">
+          <div class="col-sm">
+            <img src="images\lidar_3d.gif" alt="" style="margin-top:10px;margin-left:0px;width:700px;">
+        </div>
+          <h2 style="color:black;font-size: 30px;margin-top: -20px; text-align: justify">
+          Areas of Interest
+          </h2>
+            <h3 style="color:gray;font-size: 25px;margin-top: -20px; text-align: justify">
+            -Remote sensing of forest ecossystems<br/>
+            -Lidar (lidar detectin and randing)<br/>
+            -Forest structure, function and composition<br/>
+            -Open-source software development<br/>
+            -Fire ecology and management<br/>
+            -Spatial ecology and biodiversity<br/>
+            -Terrestrial carbon cycle<br/>
+           </h3>
+           
+                     <div class="col-sm" >
+            
+         <h2 style="color:black;font-size: 30px;margin-top: -10px; margin-left: 0px;text-align: justify">
+          Academic Experience and Employment
+          </h2>
+          
+          <table id="t01" style="color:black;font-size: 20px; width: 1750px">
+  <tr>
+    <th style="color:black;font-size: 25px;" >Institution</th>
+    <th style="color:black;font-size: 25px;">Position</th> 
+    <th style="color:black;font-size: 25px;">Year</th>
+  </tr>
+  <tr>
+    <td>UF IFAS School of Forest, Fisheries, and Geomatics Sciences FFGS <br/>
+        University of Florida - UF</td>
+    <td>Assistant Professor of Quantitative Forest Science</td>
+    <td>April 2021 - present</td>
+  </tr>
   
-  <div class="content3" style=" margin-left: 0px; width: 900px; height:550px;border: 2px solid transparent;margin-top:10px;">
+    <tr>
+    <td>UF IFAS School of Forest, Fisheries, and Geomatics Sciences FFGS <br/>
+        University of Florida - UF</td>
+    <td>Courtesy Assistant Professor of Quantitative Forest Science</td>
+    <td>January 2020 - April 2021</td>
+  </tr>
+  
+      <tr>
+    <td>USDA Forest Service - Rocky Mountain Research Station (RMRS)</td>
+    <td>Visiting Student Researcher</td>
+    <td>August 2017 - April 2018</td>
+  </tr>
+  
+      <tr>
+    <td>NASA - Jet Propulsion Laboratory (JPL)</td>
+    <td>Visiting Student Researcher</td>
+    <td>August 2016 - August 2017</td>
+  </tr>
+  
+  
+      <tr>
+    <td>College of Natural Resources - Department of Natural Resources and Society  <br/>
+        University of Idaho (UI)</td>
+    <td>Ph.D. Student</td>
+    <td>August 2014 - April 2018</td>
+  </tr>
+ 
+      <tr>
+    <td>USDA Forest Service - Rocky Mountain Research Station (RMRS)</td>
+    <td>Visiting Student Researcher</td>
+    <td>August 2012 - December 2012</td>
+  </tr>
+  
     
-         <h1 style="color:black;font-size: 40px;margin-top:100px;"> Dr. Carlos Alberto Silva </h1> 
-            <h3 style="color:gray;font-size: 30px;margin-top: -20px">
-              <br> Assistant Professor of Quantitative Forest Science <br/>
-            School of Forest, Fisheriers and Geomatics Science - FFGS<br/>
-            Institute of Food and Agricultural Sciences - IFAS<br/>
-           University of Florida - UF<br/>
-            1745 McCarty Drive / 138 Newins-Ziegler Hall<br/>
-           PO Box 110410 Gainesville, FL 32611-0410<br/>
-            E-mail: c.silva@ufl.edu<br/>
-           Office: +1 (362) 999-3125<br/>
-            <a href="https://ffgs.ifas.ufl.edu/">https://ffgs.ifas.ufl.edu</a>
+        <tr>
+    <td>“Luiz de Queiroz” College of Agriculture-University of São Paulo (USP/ESALQ)</td>
+    <td>MSc Student</td>
+    <td>January 2012 - July 2013</td>
+  </tr>
+      <tr>
+    <td>Institute of Research and Forest Studies (IPEF)</td>
+    <td>Research Assistant</td>
+    <td>August 2010 - December 2011</td>
+  </tr>
+
+        <tr>
+    <td>“Luiz de Queiroz” College of Agriculture-University of São Paulo (USP/ESALQ)</td>
+    <td>Forest Engineering</td>
+    <td>August 2007 - December 2011</td>
+  </tr>
+</table>
+
+        
+        </div>
+
+          </div>
+        </div>
+      <div class="content2" style="margin-left:775px; width: 1025px;height:700px;border: 2px solid transparent;margin-top:-707px;">
+        
+         <div id="menu">
+     <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="biography.html" class="active">Biography</a></li>
+          <li><a href="research.html">Research</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+          <li><a href="extension.html">Extension</a></li>
+     </ul>
+    </div>
+  
+  
+  <div class="content3" style=" margin-left: 0px; width: 1000px; height:460px;border: 2px solid transparent;margin-top:110px;">
+
+            <h3 style="color:gray;font-size: 25px;margin-top: -20px; text-align: justify">
+              Carlos Alberto Silva is an Assistant Professor of Quantitative Forest Science at the School of Forest, Fisheries and Geomatics Sciences (FFGS) at the University of Florida (UF). He is interested in understanding how forest ecosystems changes over time due to natural and anthropogenic disturbances and their impact on the carbon cycle. His core research consists of developing statistical frameworks and cutting-edge open-source tools, such as 
+              <a href="https://github.com/carlos-alberto-silva/rGEDI">rGEDI</a>,
+              <a href="https://github.com/carlos-alberto-silva/weblidar-treetop">TreeTop</a>, 
+              <a href="https://github.com/carlos-alberto-silva/rLiDAR">rLiDAR</a>, 
+              <a href="https://github.com/carlos-alberto-silva/ForestGapR">ForestGapR</a>, and 
+              <a href="https://cran.r-project.org/web/packages/leafR/index.html">leafR</a> for remote sensing data processing and forest resources monitoring. He is particularly interested in using LiDAR (light detection and ranging) data, from airborne, terrestrial, and satellite platforms, combined with advanced statistical methods to answer ecological questions related to forest ecosystem structure, function, and composition at a variety of spatial scales.
+
             </h3>
            </div>  
             
+        <div class="row" >
+          <div class="col-sm" >
+            
+ <h2 style="color:black;font-size: 30px;margin-top: -50px; margin-left: -120px;text-align: justify">
+          Education
+          </h2>
+            <h3 style="color:gray;font-size: 25px;margin-top: -20px; margin-left: -120px;text-align: justify">
+            BA – Forest Engineering:“Luiz de Queiroz” College of Agriculture-University of São Paulo (USP/ESALQ)<br/>
+            MA – Forest Resources:“Luiz de Queiroz” College of Agriculture-University of São Paulo (USP/ESALQ)<br/>
+            Ph.D - Natural Resources – College of Natural Resources - University of Idaho<br/>
+           </h3>
+        
+        </div>
+  </div>
+ </div>
+
+   
+ </div>      
+ <div class = "container" style="border-radius: 5px; border: 2px solid transparent; margin-left:0px; margin-top:-10px; 
+               background:#f37020;float: left; width: 1800px;height: 20px;">  
+               </div>
+</div>             
 </body>
 </html>
