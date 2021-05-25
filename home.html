@@ -86,6 +86,49 @@ html {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+
+
+.dropbtn {
+  background-color: #f37020;
+  color: white;
+  font-weight: bold;
+  text-align: right;
+  padding: 10px;
+  font-family: Tahoma, Geneva, sans-serif;
+  font-size: 30px;
+  border-radius: 8px;
+     -webkit-border-radius: 8px;
+     -moz-border-radius: 8px;
+     -o-border-radius: 8px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  text-align: left;
+  display: none;
+  position: absolute;
+  background-color: #f37020;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f37020;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #1B191B;}
 </style>
 </head>
 <body>
@@ -112,7 +155,18 @@ html {
      <ul>
           <li><a href="home.html" class="active">Home</a></li>
           <li><a href="biography.html">Biography</a></li>
-          <li><a href="research.html">Research</a></li>
+  <div class="dropdown">
+    <button class="dropbtn" style="border: 2px solid transparent">Research</button>
+  <div class="dropdown-content">
+    <li><a href="research.html">Team</a></li>
+    <li><a href="research.html">Projects</a></li>
+    <li><a href="research.html">Publications</a></li>
+    <li><a href="research.html">Tools</a></li>
+    <li><a href="research.html">Opportunities</a></li>
+</div>
+
+</div>
+
           <li><a href="teaching.html">Teaching</a></li>
           <li><a href="extension.html">Extension</a></li>
           
