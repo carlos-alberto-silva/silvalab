@@ -661,7 +661,7 @@ State University (UDESC), Lages, SC, Brazil;
      width = 8, height = 6, units = 'in', res = 200)
 library(maptools)
 data(wrld_simpl)
-myCountries = wrld_simpl@data$NAME %in% c("Australia","Brazil", "United Kingdom", "Germany", "United States", "Portugal", "Spain", "China", "Iran (Islamic Republic of)")
+myCountries = wrld_simpl@data$NAME %in% c("Australia","Brazil", "United Kingdom", "Germany", "United States", "Portugal", "Spain", "China", "Iran (Islamic Republic of)", "Malaysia")
 plot(wrld_simpl, col = c(gray(.80), "green")[myCountries+1])
 legend(-180,-40, legend="Collaborations", bty="n",col="green", pch=15)
 dev.off()-->
