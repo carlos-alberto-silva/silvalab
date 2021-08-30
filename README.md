@@ -16,7 +16,7 @@ https://ffgs.ifas.ufl.edu
 http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/  
 ```
 
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="250" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif">
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif">
 ## Areas of Interest
 
 * Forest biometrics and quantitative ecology
