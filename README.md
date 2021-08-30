@@ -3,18 +3,18 @@
 **Forest Biometrics and Remote Sensing Laboratory (Silva Lab)**
 
 ## Dr. Carlos Alberto Silva
-```r
-Assistant Professor of Quantitative Forest Science
-School of Forest, Fisheriers and Geomatics Science - SFFGS
-Institute of Food and Agricultural Sciences - IFAS
-University of Florida - UF
-1745 McCarty Drive / 138 Newins-Ziegler Hall
-PO Box 110410 Gainesville, FL 32611-0410
-E-mail: c.silva@ufl.edu
-Office: +1 (362) 999-3125
-https://ffgs.ifas.ufl.edu
-http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/  
-```
+Assistant Professor of Quantitative Forest Science\
+School of Forest, Fisheriers and Geomatics Science - SFFGS\
+Institute of Food and Agricultural Sciences - IFAS\
+University of Florida - UF\
+1745 McCarty Drive / 138 Newins-Ziegler Hall\
+PO Box 110410 Gainesville, FL 32611-0410\
+E-mail: c.silva@ufl.edu\
+Office: +1 (362) 999-3125\
+https://ffgs.ifas.ufl.edu\
+http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/\ 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="500" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/sffgs.png">
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="500" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/uf.png">
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif">
 
@@ -34,13 +34,15 @@ http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/
  
 
 ## Silva Lab
-Click here to check the Silva Lab webpage: https://carlos-alberto-silva.github.io/silvalab/home.html
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="50" height="50" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/click_here.gif"> 
+Click here to check the Silva Lab webpage: 
+https://carlos-alberto-silva.github.io/silvalab/home.html
+
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="50" height="50" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/click_here.gif"> 
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc2.gif"> 
 
 ## R packages
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="250" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc3.gif">
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc3.gif">
 
 * rGEDI: https://github.com/carlos-alberto-silva/rGEDI
 * Treetop: https://github.com/carlos-alberto-silva/weblidar-treetop
