@@ -1,8 +1,9 @@
-![](https://github.com/carlos-alberto-silva/silvalab/tree/master/images/top_cover.png)<br/>
+![](https://github.com/carlos-alberto-silva/silvalab/blob/master/images/top_cover.png)<br/>
 
 **Forest Biometrics and Remote Sensing Laboratory (Silva Lab)**
 
 ##Dr. Carlos Alberto Silva
+```r
 Assistant Professor of Quantitative Forest Science
 School of Forest, Fisheriers and Geomatics Science - SFFGS
 Institute of Food and Agricultural Sciences - IFAS
@@ -13,8 +14,10 @@ E-mail: c.silva@ufl.edu
 Office: +1 (362) 999-3125
 https://ffgs.ifas.ufl.edu
 http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/  
+```r
 
 ## Areas of Interest
+```r
 -Forest biometrics and quantitative ecology
 -Remote sensing of the environment
 -Lidar (light detection and ranging) systems (ALS, TLS, GEDI, ICESat-2)
@@ -24,9 +27,9 @@ http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/
 -Terrestrial carbon cycle
 -Tropical forest ecosystems
 -Industrial forest plantations
+```r
 
-
-# Getting Started
+## Silva Lab
 Click here to check the Silva Lab webpage:
-<img align="right" width="20" height="20" src="https://github.com/carlos-alberto-silva/silvalab/tree/master/images/click_here.gif">
+<img align="left" width="50" height="50" src="https://github.com/carlos-alberto-silva/silvalab/tree/master/images/click_here.gif" href="https://carlos-alberto-silva.github.io/silvalab/home.html">
 
