@@ -22,12 +22,12 @@ Office: +1 (362) 999-3125\
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif">
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc1.gif">
+\ 
 
 
 
 
-
-## Areas of Interest&nbsp;
+## Areas of Interest;
 
 * Forest biometrics and quantitative ecology
 * Remote sensing of the environment
@@ -43,13 +43,13 @@ Office: +1 (362) 999-3125\
 ## Silva Lab&nbsp;
 
 Click here to check the Silva Lab webpage: 
-https://carlos-alberto-silva.github.io/silvalab/home.html
+<https://carlos-alberto-silva.github.io/silvalab/home.html>
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="50" height="50" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/click_here.gif"> 
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc2.gif">
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc3.gif">
-
+\ 
 
 
 
