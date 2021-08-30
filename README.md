@@ -30,7 +30,7 @@ http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/
 
 ## Silva Lab
 Click here to check the Silva Lab webpage:
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="50" height="50" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/click_here.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="70" height="70" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/click_here.gif"> 
 ## R packages
 
 * rGEDI: https://github.com/carlos-alberto-silva/rGEDI
@@ -41,3 +41,7 @@ Click here to check the Silva Lab webpage:
 * rForest: https://github.com/carlos-alberto-silva/rForest
 
 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="70" height="70" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="70" height="70" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/seg1.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="center" width="70" height="70" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/seg1.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="70" height="70" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/seg3.gif"> 
