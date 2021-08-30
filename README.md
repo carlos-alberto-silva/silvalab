@@ -13,8 +13,8 @@ E-mail: c.silva@ufl.edu\
 Office: +1 (362) 999-3125\
 https://ffgs.ifas.ufl.edu\
 http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/\ 
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="500" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/sffgs.png">
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="500" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/uf.png">
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="200" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/sffgs.png">
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="200" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/uf.png">
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif">
 
