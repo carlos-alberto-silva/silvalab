@@ -41,7 +41,7 @@ Click here to check the Silva Lab webpage:
 * rForest: https://github.com/carlos-alberto-silva/rForest
 
 
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="150" height="150" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="150" height="150" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3dv2.gif"> 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="150" height="150" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/seg1.gif"> 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="150" height="150" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/seg2.gif"> 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="150" height="150" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/seg3.gif"> 
