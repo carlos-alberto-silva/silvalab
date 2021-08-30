@@ -27,7 +27,7 @@ Office: +1 (362) 999-3125\
 
 
 
-## Areas of Interest\
+## Areas of Interest&nbsp;
 
 * Forest biometrics and quantitative ecology
 * Remote sensing of the environment
@@ -40,9 +40,9 @@ Office: +1 (362) 999-3125\
 * Industrial forest plantations
  
 
-## Silva Lab
+## Silva Lab&nbsp;
 
-Click here to check the Silva Lab webpage:\ 
+Click here to check the Silva Lab webpage: 
 https://carlos-alberto-silva.github.io/silvalab/home.html
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="50" height="50" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/click_here.gif"> 
