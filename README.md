@@ -22,7 +22,7 @@ Office: +1 (362) 999-3125\
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif">
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc1.gif">
-\ 
+<br />
 
 
 
@@ -49,7 +49,7 @@ Click here to check the Silva Lab webpage:
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc2.gif">
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc3.gif">
-\ 
+<br />
 
 
 
