@@ -2,7 +2,7 @@
 
 **Forest Biometrics and Remote Sensing Laboratory (Silva Lab)**
 
-##Dr. Carlos Alberto Silva
+## Dr. Carlos Alberto Silva
 ```r
 Assistant Professor of Quantitative Forest Science
 School of Forest, Fisheriers and Geomatics Science - SFFGS
@@ -31,5 +31,16 @@ http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/
 
 ## Silva Lab
 Click here to check the Silva Lab webpage:
-<img align="left" width="50" height="50" src="https://github.com/carlos-alberto-silva/silvalab/tree/master/images/click_here.gif" href="https://carlos-alberto-silva.github.io/silvalab/home.html">
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img src="https://github.com/carlos-alberto-silva/silvalab/tree/master/images/click_here.gif" alt="" style="width:50px;font-size: 50px;"></a><br/>
+
+## R packages
+
+rGEDI: https://github.com/carlos-alberto-silva/rGEDI
+Treetop: https://github.com/carlos-alberto-silva/weblidar-treetop
+ForestGapR: https://github.com/carlos-alberto-silva/ForestGapR
+rLiDAR: https://github.com/carlos-alberto-silva/rLiDAR
+LeafR: https://cran.r-project.org/web/packages/leafR/index.html
+rForest: https://github.com/carlos-alberto-silva/rForest
+
+
 
