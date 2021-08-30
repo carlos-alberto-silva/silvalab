@@ -17,28 +17,27 @@ http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/
 ```
 
 ## Areas of Interest
-*Forest biometrics and quantitative ecology
-*Remote sensing of the environment
-*Lidar (light detection and ranging) systems (ALS, TLS, GEDI, ICESat-2)
-*Forest structure, function and composition
-*Open-source software development ( R packages - rGEDI; Treetop, rLiDAR, ForestGapR)
-*Fire ecology and management
-*Terrestrial carbon cycle
-*Tropical forest ecosystems
-*Industrial forest plantations
+* Forest biometrics and quantitative ecology
+* Remote sensing of the environment
+* Lidar (light detection and ranging) systems (ALS, TLS, GEDI, ICESat-2)
+* Forest structure, function and composition
+* Open-source software development ( R packages - rGEDI; Treetop, rLiDAR, ForestGapR)
+* Fire ecology and management
+* Terrestrial carbon cycle
+* Tropical forest ecosystems
+* Industrial forest plantations
 
 
 ## Silva Lab
 Click here to check the Silva Lab webpage:
-<img src="https://github.com/carlos-alberto-silva/silvalab/tree/master/images/click_here.gif" align="right" href="https://carlos-alberto-silva.github.io/silvalab/home.html"/>
-
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/click_here.gif"> 
 ## R packages
 
-*rGEDI: https://github.com/carlos-alberto-silva/rGEDI
-*Treetop: https://github.com/carlos-alberto-silva/weblidar-treetop
-*ForestGapR: https://github.com/carlos-alberto-silva/ForestGapR
-*rLiDAR: https://github.com/carlos-alberto-silva/rLiDAR
-*LeafR: https://cran.r-project.org/web/packages/leafR/index.html
-*rForest: https://github.com/carlos-alberto-silva/rForest
+* rGEDI: https://github.com/carlos-alberto-silva/rGEDI
+* Treetop: https://github.com/carlos-alberto-silva/weblidar-treetop
+* ForestGapR: https://github.com/carlos-alberto-silva/ForestGapR
+* rLiDAR: https://github.com/carlos-alberto-silva/rLiDAR
+* LeafR: https://cran.r-project.org/web/packages/leafR/index.html
+* rForest: https://github.com/carlos-alberto-silva/rForest
 
 
