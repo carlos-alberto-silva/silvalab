@@ -16,7 +16,10 @@ https://ffgs.ifas.ufl.edu
 http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/  
 ```
 
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="350" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif">
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif">
+
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc1.gif"> 
+
 ## Areas of Interest
 
 * Forest biometrics and quantitative ecology
@@ -29,12 +32,12 @@ http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/
 * Tropical forest ecosystems
 * Industrial forest plantations
  
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="250" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc1.gif"> 
+
 ## Silva Lab
 Click here to check the Silva Lab webpage:
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="70" height="70" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/click_here.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/click_here.gif"> 
 
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="250" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc2.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc2.gif"> 
 
 ## R packages
 * rGEDI: https://github.com/carlos-alberto-silva/rGEDI
