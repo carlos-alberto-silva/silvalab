@@ -5,8 +5,6 @@
 ## Dr. Carlos Alberto Silva
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="200" style="border-radius:50%" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/CarlosSilva.jpg">
-<br />
-
 Assistant Professor of Quantitative Forest Science\
 School of Forest, Fisheriers and Geomatics Science - SFFGS\
 Institute of Food and Agricultural Sciences - IFAS\
