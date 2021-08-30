@@ -3,6 +3,8 @@
 **Forest Biometrics and Remote Sensing Laboratory (Silva Lab)**
 
 ## Dr. Carlos Alberto Silva
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="200" border-radius="50%" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/CarlosSilva.jpg">
+
 Assistant Professor of Quantitative Forest Science\
 School of Forest, Fisheriers and Geomatics Science - SFFGS\
 Institute of Food and Agricultural Sciences - IFAS\
@@ -12,13 +14,15 @@ PO Box 110410 Gainesville, FL 32611-0410\
 E-mail: c.silva@ufl.edu\
 Office: +1 (362) 999-3125\
 https://ffgs.ifas.ufl.edu\
-http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/\ 
+http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/\
+
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="200" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/sffgs.png">
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="200" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/uf.png">
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif">
 
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="right" width="400" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc1.gif"> 
+
 
 ## Areas of Interest
 
