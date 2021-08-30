@@ -14,7 +14,7 @@ E-mail: c.silva@ufl.edu
 Office: +1 (362) 999-3125
 https://ffgs.ifas.ufl.edu
 http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/  
-```r
+```
 
 ## Areas of Interest
 ```r
@@ -27,7 +27,7 @@ http://ffgs.ifas.ufl.edu/faculty/silva-carlos-alberto/
 -Terrestrial carbon cycle
 -Tropical forest ecosystems
 -Industrial forest plantations
-```r
+```
 
 ## Silva Lab
 Click here to check the Silva Lab webpage:
