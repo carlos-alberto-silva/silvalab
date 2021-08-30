@@ -3,6 +3,7 @@
 **Forest Biometrics and Remote Sensing Laboratory (Silva Lab)**
 
 ## Dr. Carlos Alberto Silva
+
 <a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="200" style="border-radius:50%" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/CarlosSilva.jpg">
 
 Assistant Professor of Quantitative Forest Science\
@@ -26,7 +27,8 @@ Office: +1 (362) 999-3125\
 
 
 
-## Areas of Interest
+## Areas of Interest\
+
 * Forest biometrics and quantitative ecology
 * Remote sensing of the environment
 * Lidar (light detection and ranging) systems (ALS, TLS, GEDI, ICESat-2)
@@ -39,6 +41,7 @@ Office: +1 (362) 999-3125\
  
 
 ## Silva Lab
+
 Click here to check the Silva Lab webpage:\ 
 https://carlos-alberto-silva.github.io/silvalab/home.html
 
