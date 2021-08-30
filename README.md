@@ -41,7 +41,7 @@ Click here to check the Silva Lab webpage:
 * rForest: https://github.com/carlos-alberto-silva/rForest
 
 
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="150" height="150" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif"> 
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="150" height="150" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc1.gif"> 
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="150" height="150" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc2.gif"> 
-<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="150" height="150" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc3.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="250" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/lidar_3d_v2.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="250" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc1.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="250" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc2.gif"> 
+<a href="https://carlos-alberto-silva.github.io/silvalab/home.html"><img align="left" width="250" height="250" src="https://github.com/carlos-alberto-silva/silvalab/blob/master/images/itc3.gif"> 
