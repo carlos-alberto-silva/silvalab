@@ -1,4 +1,4 @@
-![](https://github.com/carlos-alberto-silva/silvalab/blob/master/images/top_cover.png)<br/>
+![](https://github.com/carlos-alberto-silva/silvalab/blob/master/images/top_cover2.png)<br/>
 
 **Forest Biometrics and Remote Sensing Laboratory (Silva Lab)**
 
