@@ -2,15 +2,15 @@ install.packages("hexSticker")
 
 require(hexSticker)
 
-imgurl <- "C:\\Users\\c.silva\\Documents\\silvalab\\images\\logo_hex.png"
-sticker(imgurl, package="", p_size=12, s_x=1.16, s_y=1, s_width=1.6,h_fill ="black",h_color="gray",
+imgurl <- "C:\\Users\\c.silva\\Documents\\silvalab\\images\\logo\\logo_hex.png"
+sticker(imgurl, package="", p_size=12, s_x=1.11, s_y=1, s_width=1.3,h_fill ="black",h_color="gray",
         white_around_sticker=TRUE,
-        filename="C:\\Users\\c.silva\\Documents\\silvalab\\images\\logo_hex_clip.png")
+        filename="C:\\Users\\c.silva\\Documents\\silvalab\\images\\logo\\logo_hex_clip.png")
 
 
 
 library(magick)
-p <- image_read("C:\\Users\\c.silva\\Documents\\silvalab\\images\\logo_hex_clip.png")
+p <- image_read("C:\\Users\\c.silva\\Documents\\silvalab\\images\\logo\\logo_hex_clip.png")
 pp <- p %>%
   image_fill(color = "transparent", refcolor = "white", fuzz = 4, point = "+1+1") %>%
   image_fill(color = "transparent", refcolor = "white", fuzz = 4, point = "+517+1") %>%
@@ -23,17 +23,17 @@ file.show("C:\\Users\\c.silva\\Documents\\silvalab\\images\\logo_hex_clip_trans.
 
 require(magick)
 ## list file names and read in
-imgs <- list.files("C:\\Users\\c.silva\\Documents\\silvalab\\images", full.names = TRUE, pattern = "top_cover")[-1]
+imgs <- list.files("C:\\Users\\c.silva\\Documents\\silvalab\\images\\logo\\logo_img", full.names = TRUE, pattern = "Slide")
 img_list <- lapply(imgs, image_read)
 
 ## join the images together
 img_joined <- image_join(img_list)
 
 ## animate at 2 frames per second
-img_animated <- image_animate(img_joined, fps = 0.5)
+img_animated <- image_animate(img_joined, fps = 0.25)
 
 ## view animated image
-img_animated
+#img_animated
 
 ## save to disk
 image_write(image = img_animated,
