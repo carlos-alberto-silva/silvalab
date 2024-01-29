@@ -821,3 +821,30 @@ myCountries = wrld_simpl@data$NAME %in% c("Australia","Brazil", "United Kingdom"
 plot(wrld_simpl, col = c(gray(.80), "green")[myCountries+1])
 legend(-180,-40, legend="Collaborations", bty="n",col="green", pch=15)
 dev.off()-->
+
+<!-- 
+require(pacman)
+p_load(rnaturalearth,rnaturalearthdata)
+
+world <- ne_countries(scale = "medium", returnclass = "sf")
+class(world)
+
+#plot(world$geometry)
+
+admin<-world$admin
+col<-admin; col[]<-"gray"
+
+col[admin %in% c("Australia","Brazil", "United Kingdom", "Germany", 
+                 "United States of America", "Portugal", "Spain", "China", 
+                 "Iran", "Malaysia","Japan","India",
+                 "Sweden","Canada")]<-"green"
+
+
+windows()
+tiff("C:\\Users\\c.silva\\Documents\\18_package\\Jan_2024\\03_figure\\Collaborations.tif",
+          width = 8, height = 6, units = 'in', res = 300)
+par(mar=c(0,0,0,0))
+plot(world$geometry, col=col)
+legend(-180,-30, legend="Countries with \ncollaborations", bty="n",col="green", pch=15)
+dev.off()
+-->
