@@ -1,128 +1,153 @@
 <html>
+
 <head>
-<style>
-figure {
-  border: 1px #cccccc solid;
-  padding: 4px;
-  margin: auto;
-}
+  <style>
+    body {
+      margin: 0;
+      width: 100%;
+    }
 
-figcaption {
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-}
+    figure {
+      border: 1px #cccccc solid;
+      max-width: 100%;
+      margin: auto;
+    }
 
-#menu {
-     margin-right:0;
-     float : right;
-     margin: 0;
-     width: 1785;
-     background-color: #f37020 /*#565656*/;
-     font-size: 30px;
-     font-family: Tahoma, Geneva, sans-serif;
-     font-weight: bold;
-     text-align: right;
-     padding: 10px;
-     border-radius: 8px;
-     -webkit-border-radius: 8px;
-     -moz-border-radius: 8px;
-     -o-border-radius: 8px;
-}
+    figcaption {
+      background-color: black;
+      color: white;
+      font-style: italic;
+      padding: 2px;
+      text-align: center;
+    }
 
-#menu ul {
-     margin: 0;
-     padding: 8px 0;
-     list-style: none;
-     height: auto;
-}
+    #menu > ul {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      background-color: #f37020
+        /*#565656*/
+      ;
+      font-size: 30px;
+      min-height: 60px;
+      font-family: Tahoma, Geneva, sans-serif;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -o-border-radius: 8px;
+    }
 
-#menu li {
-     display: inline;
-     padding: 20px;
-}
+    #menu ul {
+      list-style: none;
+    }
 
-#menu a {
-     color: #FFF;
-     padding: 10px;
-     text-decoration: none;
-}
+    #menu li {
+      padding: 10px;
+    }
 
-#menu a:hover {
-     background-color: #1B191B;
-     color: #FFF;
-     border-radius: 20px;
-     -webkit-border-radius: 20px;
-     -moz-border-radius: 20px;
-     -o-border-radius: 20px;
-}
 
-#menu li .active {
-     background-color: #1B191B;
-     color: #FFF;
-     border-radius: 20px;
-     -webkit-border-radius: 20px;
-     -moz-border-radius: 20px;
-     -o-border-radius: 20px;
-}
+    #menu a {
+      color: #FFF;
+      padding: 10px;
+      text-decoration: none;
+    }
 
-.parent{
-    width: 400px;
-    background: red;
-}
-.child{
-    float: left;
-    width:200px;
-    background:green;
-    height: 100px;
-}
+    #menu a:hover {
+      background-color: #1B191B;
+      color: #FFF;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
 
-html {
-    zoom: 0.60;
-    -moz-transform: scale(1);
-    -webkit-transform: scale(1);
-    transform: scale(1);
-}
-</style>
+    #menu li .active {
+      background-color: #1B191B;
+      color: #FFF;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+
+    .parent {
+      width: 400px;
+      background: red;
+    }
+
+    .child {
+      float: left;
+      width: 200px;
+      background: green;
+      height: 100px;
+    }
+
+    @counter-style g-number {
+      system: extends decimal;
+      prefix: "G";
+    }
+
+    li::marker {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: black;
+    }
+
+
+
+
+    @counter-style o-number {
+      system: extends decimal;
+      prefix: "O";
+    }
+
+    li::marker {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: black;
+    }
+
+
+    html {
+      zoom: 0.60;
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  </style>
 </head>
-<body>
-  <div class = "container" style="border-radius: 5px; border: 2px solid transparent; margin-left:0px; margin-top:0px; 
-               background:transparent;float: left; width: 1800px;height: 2000px;">
-      <img src="images\figura1_1.jpg" alt="Trulli" style="width:100%; margin-left:0px;border-radius: 5px; border: 3px solid black;">
-      
-    <div class="container" style= "width: 1800px; height:850px;border: 2px solid transparent">
-      <div class="content1 content" style="margin-left:0px; width: 1800px;height: 1000px;border: 2px solid transparent;">
-        <div class="row">
-          <div class="col-sm">
-                                  
-                     
-          <table id="t01" style="color:black; margin-left:0px;">
-            
-   
-  
-</table>
-           </div>  
-       
-       
-        </div>
-        </div>
-        </div>
-        
-       <div class="content2" style="margin-left:775px; width: 1025px;height:500px;border: 2px solid transparent;margin-top:-855px;">
-        
-         <div id="menu">
-     <ul>
-      <li><a href="silvalab.html">SILVALAB</a></li>
-    <li><a href="cms_home.html">Project</a></li>
-    <li><a href="workshop.html" >Workshop</a></li>
-    <li><a href="stakeholders.html" >Stakeholders</a></li>
+
+<body >
+  <div class="container" style="margin:0px;float: left; width: 100%">
+    <img src="images/figura1_1.jpg" alt="Trulli"
+      style="width:100%; margin-left:0px;border-radius: 15px; border: 3px solid black;">
+  </div>
+  <div class="content2" style="width: 100%;border: 2px solid transparent;">
+    <div id="menu">
+      <ul>
+        <li><a href="silvalab.html">SILVALAB</a></li>
+        <li><a href="cms_home.html">Project</a></li>
+        <li><a href="workshop.html" class="active">Workshop</a></li>
+        <li><a href="stakeholders.html">Stakeholders</a></li>
         <li><a href="publication.html">Publications</a></li>
-     <li><a href="news.html"class="active">News</a></li>
-          </ul>
+        <li><a href="news.html">News</a></li>
+
+      </ul>
     </div>
+
+  </div>
+
+  <div class="container" style="width: 100%;border: 2px solid transparent">
+    <div class="content1 content" style="margin-left:0px; width: 100%;border: 2px solid transparent;">
+      <div class="row">
+        <div class="col-sm">
   
+
+
+
  </div>      
  <div class = "container" style="border-radius: 5px; border: 2px solid transparent; margin-left:0px; margin-top:0px; 
                background:#f37020;float: left; width: 1800px;height: 30px;">  
