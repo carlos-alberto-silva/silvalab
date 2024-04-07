@@ -1,0 +1,203 @@
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      width: 100%;
+    }
+
+    figure {
+      border: 1px #cccccc solid;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    figcaption {
+      background-color: black;
+      color: white;
+      font-style: italic;
+      padding: 2px;
+      text-align: center;
+    }
+
+    #menu > ul {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      background-color: #f37020
+        /*#565656*/
+      ;
+      font-size: 30px;
+      min-height: 60px;
+      font-family: Tahoma, Geneva, sans-serif;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -o-border-radius: 8px;
+    }
+
+    #menu ul {
+      list-style: none;
+    }
+
+    #menu li {
+      padding: 10px;
+    }
+
+
+    #menu a {
+      color: #FFF;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    #menu a:hover {
+      background-color: #1B191B;
+      color: #FFF;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+
+    #menu li .active {
+      background-color: #1B191B;
+      color: #FFF;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+
+    .parent {
+      width: 400px;
+      background: red;
+    }
+
+    .child {
+      float: left;
+      width: 200px;
+      background: green;
+      height: 100px;
+    }
+
+    @counter-style g-number {
+      system: extends decimal;
+      prefix: "G";
+    }
+
+    li::marker {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: black;
+    }
+
+
+
+
+    @counter-style o-number {
+      system: extends decimal;
+      prefix: "O";
+    }
+
+    li::marker {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: black;
+    }
+
+
+    html {
+      zoom: 0.60;
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  </style>
+</head>
+
+<body >
+  <div class="container" style="margin:0px;float: left; width: 100%">
+    <img src="images/cms4d/cmsd4_cover.jpg" alt="Trulli"
+      style="width:100%; margin-left:0px;border-radius: 15px; border: 3px solid black;">
+  </div>
+  <div class="content2" style="width: 100%;border: 2px solid transparent;">
+    <div id="menu">
+      <ul>
+        <li><a href="cms4d_home.html" >Project</a></li>
+        <li><a href="cms4d_workshop.html" >Workshop</a></li>
+        <li><a href="cms4d_stakeholders.html" >Stakeholders</a></li>
+        <li><a href="cms4d_publication.html">Publications</a></li>
+        <li><a href="cms4d_products.html" class="active" >Products</a> </li>
+        <li><a href="cms4d_news.html">News</a></li>
+        <li><a href="https://carlos-alberto-silva.github.io/silvalab/lab.html">SilvaLab</a></li>
+
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="container" style="width: 100%;border: 2px solid transparent">
+    <div class="content1 content" style="margin-left:0px; width: 100%;border: 2px solid transparent;">
+      <div class="row">
+        <div class="col-sm">
+        <table id="t01" style="color:black; margin-left:0px;">
+         
+                
+       <h2 style="margin-top: 20px; width: 100%;font-size:30px"> Open-source remote sensing tools developed by the Silva lab and collaborators</h2> <br>
+
+       <p class="small" style="margin-top: -50px; font-size:20px; text-align: justify;text-indent: -70px;margin-left: 70px;">
+
+<h2 style="margin-top: 50px; width: 100%;color:gray; "> 1) rGEDI: An R Package for NASA's Global Ecosystem Dynamics Investigation (GEDI) Data Visualizing and Processing.</h2>
+     <a href="https://github.com/carlos-alberto-silva/rGEDI"><img src="images\rGEDI.PNG" alt="" 
+style="width:1200px;font-size: 50px; align-items: center ;"></a><br/>
+<p>
+<p class="small" style="margin-top: -10px; font-size:20px; text-align: center;">
+
+<h2 style="margin-top: 50px; width: 100%px;color:gray; "> 2) rLiDAR: An R Package for LiDAR Data Processing and Visualization.</h2>
+     <a href="https://github.com/carlos-alberto-silva/rLiDAR"><img src="images\rLiDAR.jpg" alt="" 
+style="width:1200px;font-size: 50px;"></a><br/>
+<p>
+
+       <p class="small" style="margin-top: -50px; font-size:20px; text-align: center;text-indent: -70px;margin-left: 70px;">
+
+<h2 style="margin-top: 50px; width: 800px;color:gray; "> 3) Treetop: A Shiny-based Application for Extracting Forest Information from LiDAR data.</h2>
+     <a href="https://github.com/carlos-alberto-silva/weblidar-treetop"><img src="images\treetop.jpg" alt="" 
+style="width: 1200px;;font-size: 50px;"></a><br/>
+<p>
+
+        <p class="small" style="margin-top: -10px; font-size:20px; text-align: justify;">
+
+<h2 style="margin-top: 50px; width: 100%;color:gray; "> 4) ForestGapR: An R Package for Airborne Laser Scanning-derived Tropical Forest Gaps Analysis.</h2>
+     <a href="https://github.com/carlos-alberto-silva/ForestGapR"><img src="images\forestgapr.png" alt="" 
+style="width:1200px;font-size: 50px;"></a><br/>
+<p>
+</div>
+</div>
+ </div>
+</div>
+   
+</div>
+</div>      
+<div class = "container" style="border-radius: 5px; border: 2px solid transparent; margin-left:0px; margin-top:0px; 
+          background:#f37020;float: left; width: 100%;height: 30px;">  
+          </div>
+</div>             
+
+
+
+
+
+
+
+  <div class="container" style="border-radius: 5px; border: 2px solid transparent; margin-left:0px; margin-top:0px; 
+               background:#f37020;float: left; width: 100%;height: 30px;">
+  </div>
+  </div>
+</body>
+
+</html>
