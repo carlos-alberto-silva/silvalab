@@ -1,0 +1,358 @@
+<html>
+
+<head>
+  <style>
+    body {
+      margin: 0;
+      width: 100%;
+    }
+
+    figure {
+      border: 1px #cccccc solid;
+      max-width: 100%;
+      margin: auto;
+    }
+
+    figcaption {
+      background-color: black;
+      color: white;
+      font-style: italic;
+      padding: 2px;
+      text-align: center;
+    }
+
+    #menu > ul {
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      background-color: #f37020
+        /*#565656*/
+      ;
+      font-size: 30px;
+      min-height: 60px;
+      font-family: Tahoma, Geneva, sans-serif;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 8px;
+      -webkit-border-radius: 8px;
+      -moz-border-radius: 8px;
+      -o-border-radius: 8px;
+    }
+
+    #menu ul {
+      list-style: none;
+    }
+
+    #menu li {
+      padding: 10px;
+    }
+
+
+    #menu a {
+      color: #FFF;
+      padding: 10px;
+      text-decoration: none;
+    }
+
+    #menu a:hover {
+      background-color: #1B191B;
+      color: #FFF;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+
+    #menu li .active {
+      background-color: #1B191B;
+      color: #FFF;
+      border-radius: 20px;
+      -webkit-border-radius: 20px;
+      -moz-border-radius: 20px;
+      -o-border-radius: 20px;
+    }
+
+    .parent {
+      width: 400px;
+      background: red;
+    }
+
+    .child {
+      float: left;
+      width: 200px;
+      background: green;
+      height: 100px;
+    }
+
+    @counter-style g-number {
+      system: extends decimal;
+      prefix: "G";
+    }
+
+    li::marker {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: black;
+    }
+
+
+
+
+    @counter-style o-number {
+      system: extends decimal;
+      prefix: "O";
+    }
+
+    li::marker {
+      font-size: 0.9em;
+      font-weight: 600;
+      color: black;
+    }
+
+
+    html {
+      zoom: 0.60;
+      -moz-transform: scale(1);
+      -webkit-transform: scale(1);
+      transform: scale(1);
+    }
+  </style>
+</head>
+
+<body >
+  <div class="container" style="margin:0px;float: left; width: 100%">
+    <img src="images/cover_webpage_icesat4d.png" alt="Trulli"
+      style="width:100%; margin-left:0px;border-radius: 15px; border: 3px solid black;">
+  </div>
+  <div class="content2" style="width: 100%;border: 2px solid transparent;">
+    <div id="menu">
+      <ul>
+        
+        <li><a href="icesat4d_home.html" class="active">Home</a></li>
+        <li><a href="https://github.com/carlos-alberto-silva/ICESat2VegR" >ICESat2VegR</a> </li>
+        <li><a href="https://icesat4d.silvalab-uf.com/">ICESat4D Mapping Platform</a></li>
+        <li><a href="icesat4d_tools.html" >Tools</a> </li>
+        <li><a href="icesat4d_publication.html">Publications</a></li>
+        <li><a href="icesat4d_media.html">Media</a></li>
+        <li><a href="https://carlos-alberto-silva.github.io/silvalab/lab.html">SilvaLab</a></li>
+    
+      </ul>
+    </div>
+
+  </div>
+
+  <div class="container" style="width: 60%;border: 2px solid transparent">
+    <div class="content1 content" style="margin-left:0px; width: 100%;border: 2px solid transparent;">
+      <div class="row">
+        <div class="col-sm">
+            
+
+                              <table id="t01" style="color:black; margin-left:0px;">
+
+                                   <h2 style="font-size: 30px; margin-top:20px; color:black">ICESat-4D: Monitoring Forest Resistance and Post-Hurricane Recovery Dynamics in Southern Forests by the Synergism of ICESat-2, SAR, and Optical Data and an Ecosystem Demography Model</h2>
+                                   </h2>
+
+                                   <h1 style="font-size: 25px; margin-top:20px; color:gray; font-style: italic">
+                                    <p>ICESat4D is a research project funded by <a href="https://icesat-2.gsfc.nasa.gov/">NASA's ICESat2</a> program and led by 
+                                      PI Carlos Silva at the Forest Biometrics, Remote Sensing, and AI Lab <a href="https://carlos-alberto-silva.github.io/silvalab/lab.html">(SilvaLab)</a>  at the University of Florida. 
+                                      It started in April 2023 and is scheduled to last for a duration of 3 years.
+
+                                      
+                                </h2>
+
+                               <html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Content in Table</title>
+<style>
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20;
+  }
+  td {
+    border: 1px solid transparent;
+    padding: 8px;
+  }
+  h2 {
+    margin-top: 0; /* Remove default margin from h2 */
+  }
+</style>
+</head>
+<body>
+  <table>
+    <tr>
+        <td style="color:gray;font-size: 25px; width:100%;text-align: justify;">
+        <h2 style="margin-left:0px; font-size: 30px; margin-top:20px; color:black;">1. Overview </h2>
+        <p> Recent advances in lidar remote sensing have demonstrated the potential to map for-est structure and AGBD changes and possibly map post-hurricane damage severity and moni-tor forest recovery. NASA’s ICESat-2 satellite mission, launched on September 15th 2018 and initially for a nominal three-year mission, is a photon-counting lidar system designed primarily to measure ice sheet elevation and sea ice thickness, but can also measure 3D forest structure globally and therefore, can be used for measuring forest structure attributes, such as forest height, cover and AGBD. On-board ICESat-2, the Advanced Topographic Laser Altimeter System (ATLAS) operates at 532 nm and fires pulses at a rate of 10 kHz, which illuminates, on the Earth’s surface, footprints of ~13 m diameter, with subse-quent footprints spaced every 70 cm along six ground tracks. 
+          The Temporal Resolution of ICESat-2 is 91 days. Two ICESat-2 products of interest in this proposed research project are: the ATLAS Level 2A Global Geolocated Photon Data (ATL03) product and Level 3A Land and the Vegetation Height (ATL08) product. ATL08-derived land and vegetation features are computed using a fixed step length of 100 m and 13 m wide (as a segment) along a ground track [13-15]. Both ATL03 and ATL08 products are available through the National Snow & Ice Data Center (NSIDC) and NASA’s Land Processes Distributed Active Archive Center (LP DAAC). Level 3B (ATL18), which consists of gridded maps for terrain elevation and canopy height, is expected to be distributed at the end of the mission.
+          <p></p>
+        
+          This pproject aims to understand the impact of hurricane disturbance on forest structure and AGBD resistance and recovery using ICESat-2 data combined with passive optical and SAR data, advanced statistical modeling methods, and a process-based Ecosystem Demography Model (EDv2.2) in southern forests in Florida and Georgia. We propose four specific objectives (O) , as follows:
+        </p>
+        <ol style="list-style: o-number;">
+          <li>Develop new calibration models for predicting forest structure [mean canopy height (HTm) , cover (COV)] and AGBD at the 30m and 100 m segments from ICESat2-derived 3D structural canopy height and cover features;</li> <br>
+          
+          <li>Develop a multi-sensor data fusion approach using parametric and machine learning methods for leveraging the strength of NASA’s ICESat-2, Landsat 8 OLI (L8) and ESA’s Sentinel 1 C-band SAR (S1C) data to produce 30m and 100 m wall-to-wall forest structure and AGBD maps that are more accurate and spatially comprehensive than is achievable with ICESat-2 alone; </li> <br>
+          
+          <li>Develop a multi-sensor data fusion approach using parametric and machine learning methods for leveraging the strength of NASA’s ICESat-2, Landsat 8 OLI (L8) and ESA’s Sentinel 1 C-band SAR (S1C) data to produce 30m and 100 m wall-to-wall forest structure and AGBD maps that are more accurate and spatially comprehensive than is achievable with ICESat-2 alone; </li> <br>
+          <li>Use ICESat-2 derived AGBD maps, EDv2.2 and the hurricane disturbance module (HuDi) adapted to southern forests to investigate the impact of hurricane disturbance on plot scale forest AGBD stocks under future hurricane and warming scenarios and assess how long-term forest AGB recovery varies among environmental factors, including hurricane. </li> <br>
+        </ol>
+         </p>
+        <p>Overall, results from this project provide a new understanding of the mechanism that drives forest resistance and recovery from short- to long-term hurricane disturbance, and its impacts on the carbon cycle, as well as assist in the sustainable conservation and management of southern forests into the future.        </p>
+        <td>
+          <img src="images/figure1.png" alt="" style="margin-top:0px;margin-left:20px;width:300px;font-size: 50px;">
+          <img src="images/icesat2.png" alt="" style="margin-top:0px;margin-left:10px;width:450px;font-size: 50px;">
+          <p style="color:gray;font-size: 18px; text-align: justify;"> Figure 1. ICESat4D project logo and ICESat-2 data sampling design.</p>
+        </td>
+      
+      </td>
+    </tr>
+  </table>
+</body>
+</html>
+
+                              </table>
+
+                              <h2 style="margin-left:0px; font-size: 30px; margin-top:35px">2. Workflow</h2>
+                              
+                              <p style="color:gray;font-size: 25px; width:100%;text-align: justify;">
+                                In this project, our technical plan is divided into four sections; each section will address one of our four proposed scientific questions, hypotheses, and objectives. 
+                                First, we propose to de-velop calibration models for predicting forest structure (HTm, COV) and AGBD at 30m and 100m segment level from ICESat-2-derived ATL08 data (Fig. 2); 
+                                Second, ICESat-2 will be combined with L8 and S1C data for deriving a framework for wall-to-wall forest structure and AGBD mapping (Fig. 2). 
+                                Third, the framework developed in 3.5.2 will be applied across time and space for predicting hurricane multi-temporal maps of forest structure and AGBD from 2018 to 2025 that will be used for as-sessing short-term forest resistance and recovery at the landscape scale (Fig. 2); 
+                                Lastly, EDv2.2 will be applied for assessing plot-level long-term forest AGBD recov-ery post-hurricane disturbance, and ICESat-2 maps will be used for benchmarking EDv2.2 outputs (Fig. 2). Our study area covers 36,218.00 km2 in Florida and Georgia (Fig.3).   
+                           </p>
+                              <img src="images/Picture2.png" alt=""
+                                   style="margin-top:20px; width:1800px;font-size: 50px;">
+                                   <p style="color:gray;font-size: 18px; text-align: justify;"> Figure 2. Flowchart of proposed methodology; 3.5.1) Forest structure and AGBD modeling at the segment level using ICESat-2 and TLS data; 3.5.2) Forest structure and AGBD mapping by the synergism of ICESat-2, L8 and S1C; 3.5.3) Monitoring forest structure and AGBD post-hurricane; and 3.5.4) Forecasting post-hurricane long-term forest recovery with EDv2.2 and HuDi.</p>
+
+                                    
+
+
+                              <h2 style="margin-left:0px; font-size: 30px; margin-top:35px">3. Hurricane Michael and Study Sites</h2>
+
+
+                            <table>
+                              <tr>
+<td>
+<p style="width:10px;"> </p>
+                              <p style="color:gray;font-size: 25px; width:100%;text-align: justify;">
+                                On October 10, 2018, Hurricane Michael made landfall in the panhandle of Florida as a Cate-gory 5 hurricane (wind speed >254 km/h) and caused an estimated $15 billion in damag-es, including more than $5.18 billion in losses to the agriculture and timber industries. In Flor-ida alone, Hurricane Michael damaged more than 1.1 M ha of forest, with over 560,000 ha severely or catastrophically damaged (>75% of the forest downed). In the Florida panhandle, due to extraordinary winds, Hurricane Michael led to recorded tree mortality as high as 80% in some areas, and the single event affected 28% of all extant longleaf pine forests [5]. The storm continued inland causing tree mortality exceeding 20% as far as 150 km inland where it continued to be classified as a Category 2 storm [12] and causing catastrophic effects in for-ests in Georgia and Alabama as well (Fig. 3).
+                                Three key sites were selected for data acquisition and analysis within the study area are: the Apalachicola National Forest (ANF; 256,121.00 ha) and the Forestland Group (FGL; 3,965.00 ha) forest in FL, and the Jones Ecological Research Center at Ichau-way (JERC; 11,740.00 ha) in GA (Fig.3).  
+                              </p>
+                              
+                           
+</td>
+
+<td>
+ <img src="images/picture3.png" alt=""
+style="margin-top:30px; width:600px;font-size: 50px;">
+<p style="color:gray;font-size: 18px; text-align: justify;">
+Figure 3. Study area (36,218.00 km2) of the proposed work highlighted by the Florida Forest Service estimates of timber damage severity from Hurricane Michael. Study sites for data collection: Apalachicola National Forest (ANF) and the Forestland Group (FGL) forests in FL, and the Jones Ecological Research Center (JERC) at Ichauway in GA. </p>
+</td>
+
+<td>
+  <img src="images/ALS_cover_fig.png" alt=""
+ style="margin-top:30px; width:400px;font-size: 50px;">
+ <p style="color:gray;font-size: 18px; text-align: justify;">
+ Figure 4. ALS Pre- and post-hurricane Michael derived canopy cover estimates. </p>
+ </td>
+ 
+</tr>
+                              </table>
+                                                               
+                              <h2 style="margin-left:0px; font-size: 30px; margin-top:50px">4. Team</h2>
+                             
+                              <p style="color:gray;font-size: 25px; width:100%;text-align: justify;">
+                                We have brought together a diverse multi-disciplinary team with the experience required to complete this proposed project. 
+                                Our team contains university and federal scientists and graduate students distributed across continents with a wealth of experience in remote sensing, 
+                                artificial intelligence, forest ecology, programming and statistics.  
+                              </p>
+                              <img src="images/team.png" alt=""
+                              style="margin-top:30px; width:1700px;font-size: 50px;">
+                           <table id="t01" style="color:black; margin-left:0px;">
+
+                            <h2 style="margin-left:0px; font-size: 30px; margin-top:50px">5. Contact us</h2>
+                             
+                            <p style="color:gray; font-size: 25px; width:100%; text-align: justify;">
+                              PI Carlos Silva, Ph.D. <br>
+                              School of Forest, Fisheries, and Geomatics Sciences (SFFGS)<br>
+                              Institute of Food & Agricultural Sciences (IFAS)<br>
+                              University of Florida (UF)<br>
+                              1745 McCarty Drive / 138 Newins-Ziegler Hall<br>
+                              PO Box 110410 Gainesville, FL 32611-0410<br>
+                              Office: +1 (352) 294-6885<br>
+                              <a href="mailto:c.silva@ufl.edu">c.silva@ufl.edu</a><br>
+                          </p>
+
+                              </table>
+
+                              <form method="post" action="https://forms.un-static.com/forms/2a9effb47335562d4c0c1617797c120a24ab1aa7">
+
+                                    <div class="form-group row" style="margin-top: 0px; font-size:20px;">
+                                    <label for="PI" class="col-4 col-form-label" style="color:gray; font-size: 25px; width:100%; text-align: justify;">Name:<span class="red">*</span></label>
+                                    <div class="col-8">
+                                      <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                        <input name="PI" placeholder="Fill in your name" type="text" class="form-control" style="font-size:20px;">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                      <div class="form-group row" style="margin-top: 10px; font-size:20px;">
+                                    <label for="Institution" class="col-4 col-form-label" style="color:gray; font-size: 25px; width:100%; text-align: justify;">Institution:<span class="red">*</span></label>
+                                    <div class="col-8">
+                                      <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-user"></i></div>
+                                        <input name="Institution" placeholder="Fill in your Institution" type="text" class="form-control" style="font-size:20px;">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                    <div class="form-group row" style="margin-top: 10px; font-size:20px;">
+                                    <label for="email" class="col-4 col-form-label" style="color:gray; font-size: 25px; width:100%; text-align: justify;">E-mail address:<span class="red">*</span></label>
+                                    <div class="col-8">
+                                      <div class="input-group">
+                                        <div class="input-group-addon"><i class="fa fa-envelope"></i></div>
+                                        <input name="email" placeholder="Fill in your e-mail address" type="text" class="form-control" style="font-size:20px;">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  
+                                  
+                                  <div class="form-group row" style="margin-top: 10px; font-size:20px;">
+                                    <label for="Project" class="col-4 col-form-label" style="color:gray; font-size: 25px; width:100%; text-align: justify;">Message:<span class="red">*</span></label>
+                                    <div class="col-8">
+                                      <textarea name="Project" cols="240" rows="20" class="form-control"></textarea>
+                                    </div>
+                                  </div>
+                                  <div class="form-group row" style="margin-top: 30px;" >
+                                    <div class="offset-4 col-8">
+                                      <button type="submit" class="btn btn-primary" style="height:45px; width:150px;font-size:23px;">Send</button>
+                                    </div>
+                                  </div>
+                                </form>
+                         </div>
+                    </div>
+               </div>
+          </div>
+      
+          </div>
+          
+          <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=nDtcuDWAl9An312C6Vefy23sIJrpZfS4yrhpm19kz0w" style="width:100px; height:100px;"></script>
+          
+        <a href="https://clustrmaps.com/site/1bz9v" title="Visit tracker">
+  <img src="//www.clustrmaps.com/map_v2.png?d=nDtcuDWAl9An312C6Vefy23sIJrpZfS4yrhpm19kz0w&cl=ffffff" style="width: 700px; max-width: 100%;" />
+</a>
+
+          
+          <div class="container" style="border-radius: 5px; border: 2px solid transparent; margin-left:0px; margin-top:0px; 
+               background:#f37020;float: left; width: 100%;height: 30px;">
+          </div>
+     </div>
+</body>
+
+</html>
